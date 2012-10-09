@@ -1,0 +1,559 @@
+/*
+	style para admin
+*/
+
+body {
+	margin: 0;
+	overflow-x: hidden;
+	height: 100%;
+	background-color: #404040;
+	background-size: 100% 100%;
+}
+
+h1{
+	font-weight: bold;
+	font-size: 40px;
+}
+
+h2{
+	font-weight: bold;
+	font-size: 30px;
+}
+
+h3{
+	font-weight: normal;
+	font-size: 25px;
+}
+
+p{
+	font-size: 20px;
+}
+
+.left {
+	width: 80%;
+	height: 100%;
+	float: left;
+	display: none;
+}
+
+.right {
+	float: right;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.right button {
+	height: 25px;
+}
+
+/* barra superior */
+.topbar {
+	background-color: #009ae0;
+	width: 80%;
+	text-align: center;
+	height: 70px;
+}
+
+.topbar .logout{
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	height: 70px;
+	vertical-align: middle;
+	width: 20%;
+}
+
+.topbar .logout img{
+	height: 50px;
+	margin-top: 10px;
+}
+
+.topbar h1{
+	margin: 0px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 30px;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: middle;
+	margin-left: -20%;
+}
+
+/* app menu */
+
+.app{
+	width: 100%;
+	display: block;
+	border-left: 1px solid rgba(3, 114, 175, 0.5);
+	height: 70px;
+	background-color: #009ae0;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.app .menuicon{
+	float: left;
+	display: inline-block;
+	text-decoration: none;
+	height: 70px;
+	vertical-align: middle;
+	width: 20%;
+}
+
+.app .menuicon .showMenu{
+	height: 50px;
+	margin-top: 10px;
+}
+
+/* fin appmenu */
+
+.app .menulike{
+	float: right;
+	display: inline-block;
+	text-decoration: none;
+	height: 70px;
+	border-right: 1px solid rgba(3, 114, 175, 0.5);
+	vertical-align: middle;
+	width: 20%;
+}
+
+
+
+.menulike .likeMenu{
+	display: inline-block;
+	height: 50px;
+	margin-top: 10px;
+}
+
+/* boton de facebook */
+.menulike img{
+	height: 50px;
+	margin-top: 10px;
+}
+
+/* fin facebook */
+
+.menuliek .fb-like button{
+	border: none;
+	color: transparent !important;
+	background-color: transparent !important;
+}
+
+.app h1{
+	margin: 0px;
+	color: #fff;
+	display: inline-block;
+	height: 100%;
+	padding-top: 10px;
+	vertical-align: middle;
+}
+
+.app .logo{
+	height: 50px;
+	margin-top: 10px;
+	vertical-align: middle;
+}
+
+
+/* contenido */
+
+.content {
+	width: 80%;
+	height: 100%;
+	display: block;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	background-color: #fff;
+}
+
+.list {
+	background-color: #fff;
+	padding-bottom: 20px;
+}
+
+.list .menuAdmin{
+	vertical-align: middle;
+	background-color: transparent;
+	color: #000;
+	text-align: center;
+}
+
+.list .menuAdmin .opcion{
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	vertical-align: middle;
+	border: none;
+
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		-o-border-radius: 20px;
+		-ms-border-radius: 20px;
+	border-radius: 20px;
+
+	text-align: left;
+	background-color: #ededed;
+	height: auto;
+	width: 70%;
+	cursor: pointer;
+}
+
+.list .menuAdmin .opcion img {
+	float: right;
+	height: 20px;
+	margin-right: 20px;
+	margin-top: 15px;
+}
+
+.list .menuAdmin .opcion h3 {
+	color: #76c2ec;
+	display: block;
+	float: left;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
+}
+
+
+.list .menuAdmin .options {
+	width: 70%;
+	border-top: 1px solid rgba(0, 0, 0, 0.5);
+	display: none;
+	margin-right: auto;
+	margin-left: auto;
+
+	opacity: 0.2;
+
+		-webkit-border-bottom-right-radius: 20px;
+		-webkit-border-bottom-left-radius: 20px;
+		-moz-border-radius-bottomright: 20px;
+		-moz-border-radius-bottomleft: 20px;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+
+.list .menuAdmin .formulario{
+	width: 70%;
+	background-color: #ededed !important;
+}
+
+/* sidebar */
+.sidebar {
+	float: right;
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+	background-color: #404040;
+	color: #fff;
+	display: inline-block;
+	text-align: left;
+	color: #fff;
+
+	border-left: 1px solid rgba(55, 55, 55, 0.8);
+	border-radius: none;
+}
+
+/* home */
+.home{
+	height: 100%;
+	padding-bottom: 10%;
+}
+
+.sidebar .album{
+	display: inline-block;
+	border-bottom: 1px solid rgba(199, 199, 199, 0.2);
+	width: 100%;
+	cursor: pointer;
+}
+
+.sidebar .album:first-child{
+	padding-top: 5%;
+}
+
+.sidebar .album .cover{
+	width: 25%;
+	display: block;
+	float: left;
+	text-align: center;
+}
+
+.sidebar .album .cover img{
+	/*height: 70px;
+	margin: 10% 10%;*/
+}
+
+.sidebar .album .info{
+	width: 75%;
+	display: block;
+	float: right;
+}
+
+/* contador */
+
+.contador{
+	display: none;
+	margin-right: 10%;
+	margin-top: 2%;
+	float: right;
+	background-color: #009ae0;
+	border-radius: 30px;
+	text-align: center;
+	color: #fff;
+	padding: 5px 20px;
+}
+
+.contador h1{
+	display: inline-block;
+	margin: 0px;
+	font-size: 40px;
+	padding: 0px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.sidebar .album .info .infosong, .sidebar .album .info .infovotos{
+	display: bloack;
+	width: 100%;
+}
+
+.sidebar .album .info .infosong img, .sidebar .album .info .infovotos img{
+	display: block;
+	float: left;
+	margin-right: 5%;
+	margin-left: 5%;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	height: 40px;
+	vertical-align: middle;
+}
+
+.sidebar .album .info .infovotos{
+	margin-top: 5%;
+}
+
+.sidebar .album .info .infosong{
+	margin-top: 5%;
+}
+
+
+.sidebar .album .info .infovotos .mas{
+	display: none;
+	float: right;
+	margin-right: 10%;
+	height: 40px;
+	cursor: pointer;
+}
+
+.sidebar .album .info .infosong h2{
+	font-weight: normal;
+	margin: 0px !important;
+}
+
+.sidebar .album .info .infosong h3{
+	display: inline-block;
+	font-weight: normal;
+	margin: 0px;
+	margin-left: 5%;
+	margin-top: 10px;
+}
+
+.sidebar .album .info .infovotos p{
+	display: block;
+	font-weight: normal;
+	float: left;
+}
+
+.sidebar .menuvotar{
+	background-color: #373737;
+	border-top: 1px solid #373737;
+	border-bottom: 1px solid #373737;
+	opacity: 0.5;
+	display: none;
+	width: 100%;
+	text-align: center;
+}
+
+.sidebar .menuvotar .like, .sidebar .menuvotar .tweet{
+	display: inline-block;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	width: auto;
+	/*height: 100%;*/
+	vertical-align: middle;
+}
+
+.sidebar .menuvotar .like{
+	margin-right: 10%;
+}
+
+.sidebar .menuvotar .like img, .sidebar .menuvotar .tweet img{
+	display: inline-block;
+	height: 45px;
+	float: left;
+	border-right: 10px solid transparent;
+}
+
+.sidebar .menuvotar .like p, .sidebar .menuvotar .tweet p{
+	display: block;
+	float: left;
+	vertical-align: middle;
+	color: #fff;
+}
+
+.tweet a img{
+
+}
+
+/* boton tweet */
+#custom-tweet-button a {
+    display: block;
+    padding: 0px;
+    border: 0px solid transparent;
+    background-color: transparent;
+    color: transparent;
+ }
+
+ #custom-tweet-button iframe{
+ 	display: inline-block;
+ 	float: left;
+ 	margin-right: -60px;
+ 	margin-top: 15px;
+ 	opacity: 0;
+ }
+
+ /* errores */
+
+.error{
+	display: block;
+	border: none;
+	width: 100%;
+	vertical-align: middle;
+	margin-top: 20%;
+	padding: 5%;
+}
+
+.error h1{
+	margin: 0px;
+	text-align: center;
+}
+
+/*password */
+.formulario{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	min-width: 30%;
+	max-width: 50%;
+	background-color: #fff;
+	padding: 10%;
+	text-align: center;
+
+	border: 1 solid #333;
+
+		-webkit-border-bottom-right-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-radius-bottomright: 10px;
+		-moz-border-radius-bottomleft: 10px;
+		-o-border-radius-bottomright: 10px;
+		-o-border-radius-bottomleft: 10px;
+		-ms-border-radius-bottomright: 10px;
+		-ms-border-radius-bottomleft: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.formulario h1{
+	font-size: 25px;
+	text-align: center;
+}
+
+.formulario input[type="text"], 
+.formulario input[type="password"]{
+	margin-bottom: 10px;
+	border: none;
+
+		-o-border-radius: 20px; /*opera*/
+		-webkit-border-radius: 20px; /*chrome*/
+		-moz-border-radius: 20px; /*firefox*/
+		-ms-border-radius: 20px; /*ie 10+ */
+	border-radius: 20px;
+	font-size: 20px;
+	color: rgba(255, 255, 255, 0.5);
+
+	min-width: 50%;
+	max-width: 70%;
+	padding: 5px 15px;
+	background-color: #0372af;
+	text-align: center;
+}
+
+.formulario input[type="text"]:focus, 
+.formulario input[type="password"]:focus{
+	color: #fff;
+}
+
+
+.formulario input[type="submit"]{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: none;
+	color: #fff;
+	background-color: #404040;
+
+		-o-border-radius: 15px; /*opera*/
+		-webkit-border-radius: 15px; /*chrome*/
+		-moz-border-radius: 15px; /*firefox*/
+		-ms-border-radius: 15px; /*ie 10+ */
+	border-radius: 15px;
+}
+
+.formulario button{
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: none;
+	color: #fff;
+	background-color: #0372af;
+
+		-o-border-radius: 15px; /*opera*/
+		-webkit-border-radius: 15px; /*chrome*/
+		-moz-border-radius: 15px; /*firefox*/
+		-ms-border-radius: 15px; /*ie 10+ */
+	border-radius: 15px;
+	margin-bottom: 10px;
+}
+
+.logout button{
+	height: 50px;
+	margin-top: 10px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 5px 10px;
+	border: none;
+	color: #fff;
+	background-color: #404040;
+
+		-o-border-radius: 15px; /*opera*/
+		-webkit-border-radius: 15px; /*chrome*/
+		-moz-border-radius: 15px; /*firefox*/
+		-ms-border-radius: 15px; /*ie 10+ */
+	border-radius: 15px;
+}
+
+.formulario hr{
+	min-width: 10%;
+	max-width: 25%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.formulario h3{
+	margin: 0px;
+	display: inline-block;
+}
