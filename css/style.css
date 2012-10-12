@@ -544,6 +544,12 @@ p{
 		-moz-border-radius: 15px; /*firefox*/
 		-ms-border-radius: 15px; /*ie 10+ */
 	border-radius: 15px;
+	
+		-o-border-radius: 15px !important; /*opera*/
+		-webkit-border-radius: 15px !important; /*chrome*/
+		-moz-border-radius: 15px !important; /*firefox*/
+		-ms-border-radius: 15px !important; /*ie 10+ */
+	border-radius: 15px !important;
 }
 
 .formulario hr{
@@ -557,3 +563,17 @@ p{
 	margin: 0px;
 	display: inline-block;
 }
+
+.formulario p{
+	display: block;
+	width: 100%;
+	margin: 0px;
+}
+
+.formulario .hrFull{
+	border: 1px solid #333;
+	min-width: 70% !important;
+	max-width: 70% !important;
+	float: none !important;
+	display: block;
+} 
